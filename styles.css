@@ -204,14 +204,14 @@ button:hover{
     margin-left: 155px;
     /* margin-top: 10px; */
 }
-@media (max-width:596px){
+/* @media (max-width:596px){
     .devpic{
         display: none;
     }
     .info,.contactform{
         margin: 50px 8px;
     }
-}
+} */
 .contactform form{
     margin: 0 40px;
 
@@ -243,4 +243,12 @@ button:hover{
 }
 .codechef{
     margin-left: 30px;
+}
+@media screen and (max-width:600px ) {
+    .devpic{
+        display: none;
+    }
+    .info,.contactform{
+        margin: 50px 8px;
+    }
 }
